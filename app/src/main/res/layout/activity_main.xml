@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/descriptionlbl"
+        android:layout_width="349dp"
+        android:layout_height="21dp"
+        android:text="@string/description"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prixtxt" />
+
+    <Button
+        android:id="@+id/url"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="onClickUrl"
+        android:text="@string/website"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/achete"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptiontxt"
+        app:layout_constraintVertical_bias="0.997" />
+
+    <TextView
+        android:id="@+id/nomtxt"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="81dp"
+
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/prixtxt"
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="132dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descriptiontxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionlbl" />
+
+    <Button
+        android:id="@+id/achete"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="657dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="26dp"
+        android:text="@string/achete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/url"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="onClickAchete"/>
+
+    <TextView
+        android:id="@+id/prixlbl"
+        android:layout_width="0dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/euro"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/descriptionlbl"
+        app:layout_constraintStart_toEndOf="@+id/prixtxt" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="26dp"
+        android:text="Edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/achete"
+        android:onClick="onClickEdit"/>
+
+    <TextView
+        android:id="@+id/tv_achete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="133dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionlbl" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

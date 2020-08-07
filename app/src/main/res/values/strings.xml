@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Articles</string>
+    <string name="nom">Nom</string>
+    <string name="description">Description</string>
+    <string name="euro">€</string>
+    <string name="prix">Prix</string>
+    <string name="website">Website</string>
+    <string name="achete">Acheté</string>
+    <string name="non_achete">Non acheté</string>
+    <string name="save">Save</string>
+    <string name="title_activity_liste_article">ListeArticleActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
